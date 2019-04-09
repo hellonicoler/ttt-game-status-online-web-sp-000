@@ -39,6 +39,6 @@ WIN_COMBINATIONS.each { |win_combination|
 return false
 end
 
-def full
-  
+def full?(board)
+  board.all?{|numbers| != nil}
 end
