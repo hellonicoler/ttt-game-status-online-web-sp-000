@@ -40,5 +40,5 @@ return false
 end
 
 def full?(board)
-  board.all?{|i| i == ("X" || "O")}
+  board.all? {|i| i == ("X" || "O")}
 end
