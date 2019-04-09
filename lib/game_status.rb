@@ -40,5 +40,5 @@ return false
 end
 
 def full?(board)
-  board.all?{|numbers| != nil}
+  board.all?{|b| b == nil}
 end
