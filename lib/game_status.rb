@@ -38,3 +38,7 @@ WIN_COMBINATIONS.each { |win_combination|
 }
 return false
 end
+
+def full
+  
+end
